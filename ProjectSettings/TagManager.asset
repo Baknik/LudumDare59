@@ -47,5 +47,11 @@ TagManager:
   - name: Interactable Space
     uniqueID: 2748690265
     locked: 0
+  - name: World UI
+    uniqueID: 1718505063
+    locked: 0
+  - name: HUD
+    uniqueID: 815750549
+    locked: 0
   m_RenderingLayers:
   - Default
