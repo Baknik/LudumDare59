@@ -1577,8 +1577,8 @@
        d="m 250.35909,93.173456 c 0.96412,2.279478 1.49727,4.785636 1.49727,7.416314 0,2.63067 -0.53315,5.13683 -1.49727,7.41631"
        sodipodi:nodetypes="csc"
        inkscape:export-filename="..\Assets\Sprites\signal_icon.png"
-       inkscape:export-xdpi="356.109"
-       inkscape:export-ydpi="356.109" /><path
+       inkscape:export-xdpi="356.10901"
+       inkscape:export-ydpi="356.10901" /><path
        id="circle1-2"
        style="fill:none;fill-opacity:0.4;stroke:#00b1e3;stroke-width:3.20314;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 244.74123,95.546677 c 0.65562,1.550044 1.01815,3.254232 1.01815,5.043093 0,1.78885 -0.36253,3.49304 -1.01815,5.04309"
@@ -1957,7 +1957,7 @@
        id="ellipse100"
        cx="319.52634"
        cy="124.92289"
-       inkscape:export-filename="..\Assets\Sprites\signal_area.png"
+       inkscape:export-filename="..\Assets\Sprites\range_icon.png"
        inkscape:export-xdpi="356.10901"
        inkscape:export-ydpi="356.10901"
        rx="9.8804407"
