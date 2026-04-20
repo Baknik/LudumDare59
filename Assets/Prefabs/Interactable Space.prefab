@@ -721,7 +721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8471560675813920265}
   - component: {fileID: 6935081133726482993}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: signal_area_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8228695929302074627}
   - component: {fileID: 6284940778799901969}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Signal Range
   m_TagString: Untagged
   m_Icon: {fileID: 0}

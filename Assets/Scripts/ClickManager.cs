@@ -49,7 +49,7 @@ public class ClickManager : MonoBehaviour
             DeselectAllInteractableSpaces();
 
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, 50f, InteractableSpaceLayerMask);
+            RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, 100f, InteractableSpaceLayerMask);
 
             if (hit.collider != null &&
                 hit.collider.gameObject.TryGetComponent<InteractableSpace>(out var interactableSpace))

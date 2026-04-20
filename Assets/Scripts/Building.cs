@@ -50,7 +50,16 @@ public class Building : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
 
+    public void UpdateInNetwork()
+    {
+        var delta = Mathf.FloorToInt((float)Approval * (Random.value * ApprovalEffectMultiplier));
+        PeopleInNetwork = Mathf.Clamp(PeopleInNetwork + delta, 0, ResidentPeople);
+    }
+
+    private void FixedUpdate()
+    {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, 50, BuildingLayerMask);
 
@@ -63,11 +72,5 @@ public class Building : MonoBehaviour
         {
             StatsDisplayObject.SetActive(false);
         }
-    }
-
-    public void UpdateInNetwork()
-    {
-        var delta = Mathf.FloorToInt((float)Approval * (Random.value * ApprovalEffectMultiplier));
-        PeopleInNetwork = Mathf.Clamp(PeopleInNetwork + delta, 0, ResidentPeople);
     }
 }
